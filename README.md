@@ -1,4 +1,3 @@
-# Appflow_Deployment
-This repo is for learning appflow deployment
+# Donetick_Deployment
+This repo is for learning Donetick deployment
 
-first step : clone the Appflowy repo
