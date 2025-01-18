@@ -1,13 +1,15 @@
 # Donetick_Deployment
 This repo is for learning Donetick deployment
 
-1) Make sure you installed docker and docker compose properly you can use the docker docs to install it (https://docs.docker.com/engine/install/) 
+1) Make sure you installed docker and docker compose properly you can use the docker docs to install it 
 
-1- clone the Donetick repo on server
+https://docs.docker.com/engine/install/ 
 
-2- cd to /donetick directory
+2) clone the Donetick repo on server
 
-3- replace docker-compose.yaml with this
+3) cd to /donetick directory
+
+4) Use this template to set up Donetick with Docker compose or replace it with docker-compose.yaml
 
 ```
 services:
@@ -25,8 +27,4 @@ services:
       - DT_SQLITE_PATH=/donetick-data/donetick.db
       
 ```
-
-
-4) and save and exit
-
-5) sudo docker compose up -d
+ 
