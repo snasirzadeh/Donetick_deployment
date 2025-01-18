@@ -7,7 +7,7 @@ This repo is for learning Donetick deployment
 
 3- replace docker-compose.yaml with this
 
-,,,
+```
 services:
   donetick:
     image: donetick/donetick
@@ -22,7 +22,8 @@ services:
       - DT_ENV=selfhosted
       - DT_SQLITE_PATH=/donetick-data/donetick.db
       
-,,,
+```
+
 
 4) and save and exit
 
