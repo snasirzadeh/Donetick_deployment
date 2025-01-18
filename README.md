@@ -1,6 +1,8 @@
 # Donetick_Deployment
 This repo is for learning Donetick deployment
 
+1) Make sure you installed docker and docker compose properly you can use the docker docs to install it (https://docs.docker.com/engine/install/) 
+
 1- clone the Donetick repo on server
 
 2- cd to /donetick directory
