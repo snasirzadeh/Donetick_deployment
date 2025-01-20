@@ -18,7 +18,7 @@ services:
     container_name: donetick
     restart: unless-stopped
     ports:
-      - 2021:2021
+      - "127.0.0.1:2021:2021"
     volumes:
       - ./data:/donetick-data
       - ./config:/config
@@ -27,4 +27,14 @@ services:
       - DT_SQLITE_PATH=/donetick-data/donetick.db
       
 ```
- 
+5) At the end type this command
+
+```
+docker compose up -d
+
+```
+
+
+
+
+
