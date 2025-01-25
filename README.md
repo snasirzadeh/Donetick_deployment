@@ -5,7 +5,7 @@ This repo is for learning Donetick deployment
 
 https://docs.docker.com/engine/install/ 
 
-2) clone the Donetick repo on server
+2) clone the Donetick repo on server or you can create a selfhosted.yaml inside your project directory
 
 3) cd to /donetick directory
 
